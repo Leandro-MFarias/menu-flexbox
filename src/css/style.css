@@ -18,6 +18,7 @@ html {
 
 .menu-item {
     display: flex;
+    margin-right: 10px;
     gap: 20px;
 }
 
