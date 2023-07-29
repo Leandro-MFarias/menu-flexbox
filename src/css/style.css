@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&family=Public+Sans:wght@400;800&display=swap');
+
+html {
+    font-family: 'Public Sans', sans-serif;
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.menu-item {
+    display: flex;
+    gap: 20px;
+}
+
+a {
+    color:#000000;
+}
+
+.sobre {
+    background-color: #5BC241;
+    padding: 10px;
+    color: #ffffff;
+}
+
+.cadastre-se {
+    background-color: #5BC241;
+    border-radius: 12px;
+    padding: 13px;
+    color: #ffffff;
+}
