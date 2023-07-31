@@ -1,32 +1,27 @@
-@media (max-width: 710px) { 
+@media (max-width: 730px) { 
     .cabecalho {
-        display: flex;
         flex-direction: column;
         margin-top: 50px;
-        gap: 100px;
+        gap: 80px;
         font-size: 30px;
     }
 
-    .menu-item {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
+    .logo h1 {
         font-size: 40px;
-        gap: 50px;
-    }
-    
-    .logo {
-        font-size: px;
     }
 
-    .sobre {
-        padding: 15px 50px;
+    .menu {
+        flex-direction: column;
+        font-size: 40px;
+        gap: 35px;
     }
 
-    .cadastre-se {
+    .menu li a:hover {
+        padding: 13px 40px;
+    }
+
+    .btn {
         font-size: 18px;
-        padding: 20px 30px;
+        padding: 15px 23px;
     }
 }
