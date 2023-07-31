@@ -13,7 +13,7 @@
     .menu {
         flex-direction: column;
         font-size: 40px;
-        gap: 35px;
+        gap: 45px;
     }
 
     .menu li a:hover {
